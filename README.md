@@ -27,7 +27,7 @@
 
 
 
-![image-20210209024127167](/home/rewine/QtProject/ElectricalManager/document/image-20210209024127167.png)
+![image-20210209024127167](/document/image-20210209024127167.png)
 
 
 

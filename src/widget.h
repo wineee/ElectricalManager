@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QSqlTableModel>
+#include <QSqlRecord>
+#include <QSqlQuery>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -17,15 +19,15 @@ public:
     ~Widget();
 
 private slots:
-    void on_pushButton_query_clicked();
+    void on_pushButton_query_Etype_clicked();
 
-    void on_pushButton_updata_clicked();
+    void on_pushButton_updata_Etype_clicked();
 
-    void on_pushButton_delete_clicked();
+    void on_pushButton_delete_Etype_clicked();
 
-    void on_pushButton_insert_clicked();
+    void on_pushButton_insert_Etype_clicked();
 
-    void on_pushButton_revert_clicked();
+    void on_pushButton_revert_Etype_clicked();
 
     void on_pushButton_query_Clerks_clicked();
 
@@ -73,9 +75,18 @@ private slots:
 
     void on_pushButton_insert_Charge_clicked();
 
-    void on_pushButton_revert_Charge_clicked();
+    void pushButton_revert_Charge_clicked();
 
-    void on_pushButton_updata_Charge_clicked();
+    void pushButton_updata_Charge_clicked();
+
+    void selectAll();
+
+    void on_pushButton_NeedActual_clicked();
+
+    void on_pushButton_NoCharge_clicked();
+
+    //static void before_delete_EusedT();
+    //void on_pushButton_updata_clicked();
 
 private:
     Ui::Widget *ui;

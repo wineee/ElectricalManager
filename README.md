@@ -5,7 +5,7 @@
 ### 编程环境
 
 - windows 10
-- qt qt 5.14
+- qt 5.14
 - sqlserver
 - odbc
 
